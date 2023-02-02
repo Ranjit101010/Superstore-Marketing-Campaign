@@ -5,7 +5,7 @@ import numpy as np
 # git modifications
 # import the model
 pipe1 = pickle.load(open('pipe.pkl', 'rb'))
-df = pickle.load(open('df.pkl', 'rb'))
+df = pickle.load(open('df1.pkl', 'rb'))
 
 st.title("Laptop Predictor")
 
